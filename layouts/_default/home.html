@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="card">
+    <p class="eyebrow">Redshift A Cappella</p>
+    <h1>{{ .Title }}</h1>
+    <p class="lede">An evening of live vocal music.</p>
+
+    <div class="details">
+      <div><strong>Date</strong><span>{{ site.Params.concertDate }}</span></div>
+      <div><strong>Time</strong><span>{{ site.Params.concertTime }}</span></div>
+      <div><strong>Venue</strong><span>{{ site.Params.venue }}</span></div>
+      <div><strong>Address</strong><span>{{ site.Params.address }}</span></div>
+    </div>
+
+    <div class="buttons">
+      <a class="button" href="https://maps.google.com/?q=Palo+Alto+High+School+Media+Arts+Center">Get Directions</a>
+      <a class="button button-secondary" href="mailto:info@redshiftacappella.com">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="content">
+  {{ .Content }}
+</section>
+{{ end }}
