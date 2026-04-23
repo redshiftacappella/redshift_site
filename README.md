@@ -10,7 +10,7 @@ The site is built using Hugo, a fast static site generator.
 
 * **Group:** Redshift A Cappella
 * **Date:** May 31
-* **Time:** 6:00 PM
+* **Time:** 5:00 PM
 * **Location:** Palo Alto High School Media Arts Center
 * **Address:** 50 Embarcadero Rd, Palo Alto, CA
 

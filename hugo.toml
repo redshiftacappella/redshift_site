@@ -7,6 +7,6 @@ disableKinds = ["taxonomy", "term", "RSS", "section"]
 groupName = "Redshift"
 tagline = "Live a cappella in the Bay Area"
 concertDate = "Sunday, May 31"
-concertTime = "6:00 PM"
+concertTime = "5:00 PM"
 venue = "Palo Alto High School Media Arts Center"
 address = "50 Embarcadero Rd, Palo Alto, CA"
